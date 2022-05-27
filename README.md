@@ -3,7 +3,7 @@
 This project was completed as a part of the Data Science and Visualization Bootcamp at Northwestern University (https://bootcamp.northwestern.edu/data/).
 ![](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fall-movies-index-1628968089.jpg)
 ## Project Intro/Objective
-The purpose of this project is to clean and merge two datasets about movies, and create a relational database. 
+The purpose of this project is to clean and merge multiple datasets about movies, and create a relational database. 
 
 ### Collaborators
 * Ishan Sidhu
@@ -51,7 +51,7 @@ In this project, we were interested in creating a database about movies and thei
         * Title (varchar)
         * Vote_average (int) - rating among TMDB users
         * Vote_count (int) - number of votes from TMDB users
-    * We also used another file from the same source to generate hyperlinks that connect to each movie's movie poster, as a downloadable image file
+    * We also used another file from the same source to generate hyperlinks that connect to each movie's movie poster, as a downloadable image file. This process was somewhat involved and time consuming, so we include here both the code used to pull it using API, and the resulting csv file for your use.
 * IMBD Ratings: 
     * https://www.imdb.com/interfaces/title.ratings.tsv.gz
     * Contains the IMDb rating and votes information for titles

@@ -23,8 +23,8 @@ In this project, we were interested in creating a database about movies and thei
    * https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=movies_metadata.csv
    * Contains many pieces of metadata information
    * Type: csv
-   * Columns: 
-        * Budget (int) 
+   * Columns (items indicated with ~ were dropped due to incomplete data): 
+        * ~Budget (int)~ 
         * Genres (json) - id/name of genres
         * Imdb_id (varchar(9)) 
         * Original_language (string) - 2 letter language type
@@ -36,10 +36,9 @@ In this project, we were interested in creating a database about movies and thei
         * Release date
         * Number of total votes
         * Previous days score
-        * Poster_path (varchar) - end path for hyperlink. Searching for beginning
         * Production_countries (json) - 2 letter country and full name 
         * Release_date (date) 
-        * Revenue (int) - in usd
+        * ~Revenue (int) - in usd~
         * Runtime (int) - in minutes
         * Status (string) - released only
         * Title (varchar)

@@ -28,14 +28,7 @@ In this project, we were interested in creating a database about movies and thei
         * Genres (json) - id/name of genres
         * Imdb_id (varchar(9)) 
         * Original_language (string) - 2 letter language type
-        * Popularity (float) - values calculated based on the below metrics:
-        * Number of votes for the day
-        * Number of views for the day
-        * Number of users who marked it as a "favorite" for the day
-        * Number of users who added it to their "watchlist" for the day
-        * Release date
-        * Number of total votes
-        * Previous days score
+        * Popularity (float) - metric defined here: https://developers.themoviedb.org/3/getting-started/popularity
         * Production_countries (json) - 2 letter country and full name 
         * Release_date (date) 
         * ~Revenue (int) - in usd~

@@ -23,7 +23,7 @@ In this project, we were interested in creating a database about movies and thei
    * https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=movies_metadata.csv
    * Contains many pieces of metadata information
    * Type: csv
-   * Columns (items indicated with ~ were dropped due to incomplete data): 
+   * Columns (items indicated with ~strikethrough~ were dropped due to incomplete data): 
         * ~Budget (int)~ 
         * Genres (json) - id/name of genres
         * Imdb_id (varchar(9)) 
@@ -56,6 +56,7 @@ We encourage any other cinephiles out there to download this database and draw y
     * https://www.imdb.com/interfaces/
 4. Data processing/transformation scripts are contained in ETL.ipynb
 5. SQL database must be generated on local computer using code in "schema.sql"
+   * Make sure to update the line regarding connection with SQL to reflect your personal password/port no./etc.
 ## Featured Notebooks/Analysis/Deliverables
 * ETL.ipynb - main script
 * TitleRatingsTSV - code for transforming TSV file - final version incorporated into ETL.ipynb

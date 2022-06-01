@@ -1,7 +1,7 @@
 
 -- Query to check successful load
-SELECT * FROM IMDB_ratings
-SELECT * FROM TMDB
+SELECT * FROM imdb_ratings
+SELECT * FROM tmdb
 
 -- Join tables on imdb_id
 SELECT * FROM imdb_ratings i

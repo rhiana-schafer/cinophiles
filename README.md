@@ -2,6 +2,7 @@
 ### Project 2, Group 1: Movies, Movies, Movies!
 This project was completed as a part of the Data Science and Visualization Bootcamp at Northwestern University (https://bootcamp.northwestern.edu/data/).
 ![](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fall-movies-index-1628968089.jpg)
+'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fall-movies-index-1628968089.jpg'
 ## Project Intro/Objective
 The purpose of this project is to clean and merge two datasets about movies, and create a relational database. 
 ### Collaborators
